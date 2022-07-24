@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <declare-styleable title="PageIndicatorView">
+        <attr title="piv_orientation">
+            <enum title="horizontal" value="0" />
+            <enum title="vertical" value="1" />
+        </attr>
+
+        <attr title="piv_viewPager" format="reference" />
+        <attr title="piv_select" format="integer" />
+
+        <attr title="piv_count" format="integer" />
+        <attr title="piv_dynamicCount" format="boolean" />
+
+        <attr title="piv_radius" format="dimension" />
+        <attr title="piv_padding" format="dimension" />
+        <attr title="piv_strokeWidth" format="dimension" />
+        <attr title="piv_scaleFactor" format="float" />
+        <attr title="piv_autoVisibility" format="boolean" />
+
+        <attr title="piv_unselectedColor" format="color" />
+        <attr title="piv_selectedColor" format="color" />
+
+        <attr title="piv_interactiveAnimation" format="boolean" />
+        <attr title="piv_animationDuration" format="integer" />
+        <attr title="piv_animationType">
+            <enum title="none" value="0" />
+            <enum title="color" value="1" />
+            <enum title="scale" value="2" />
+            <enum title="worm" value="3" />
+            <enum title="slide" value="4" />
+            <enum title="fill" value="5" />
+            <enum title="thinWorm" value="6" />
+            <enum title="drop" value="7" />
+            <enum title="swap" value="8" />
+            <enum title="scale_down" value="9" />
+        </attr>
+        <attr title="piv_rtl_mode">
+            <enum title="on" value="0" />
+            <enum title="off" value="1" />
+            <enum title="auto" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable title="SliderView">
+
+        <attr title="sliderIndicatorOrientation">
+            <enum title="horizontal" value="0" />
+            <enum title="vertical" value="1" />
+        </attr>
+
+        <attr title="sliderIndicatorRadius" format="dimension" />
+        <attr title="sliderIndicatorPadding" format="dimension" />
+        <attr title="sliderIndicatorMargin" format="dimension" />
+        <attr title="sliderIndicatorMarginLeft" format="dimension" />
+        <attr title="sliderIndicatorMarginRight" format="dimension" />
+        <attr title="sliderIndicatorMarginTop" format="dimension" />
+        <attr title="sliderIndicatorMarginBottom" format="dimension" />
+
+        <attr title="sliderIndicatorGravity">
+            <flag title="bottom" value="80" />
+            <flag title="center" value="17" />
+            <flag title="center_horizontal" value="1" />
+            <flag title="center_vertical" value="16" />
+            <flag title="clip_horizontal" value="8" />
+            <flag title="clip_vertical" value="128" />
+            <flag title="end" value="8388613" />
+            <flag title="fill" value="119" />
+            <flag title="fill_horizontal" value="7" />
+            <flag title="fill_vertical" value="112" />
+            <flag title="left" value="3" />
+            <flag title="right" value="5" />
+            <flag title="start" value="8388611" />
+            <flag title="top" value="48" />
+        </attr>
+
+        <attr title="sliderIndicatorUnselectedColor" format="color" />
+        <attr title="sliderIndicatorSelectedColor" format="color" />
+        <attr title="sliderIndicatorAnimationDuration" format="integer" />
+        <attr title="sliderAnimationDuration" format="integer" />
+
+        <attr title="sliderIndicatorRtlMode">
+            <enum title="on" value="0" />
+            <enum title="off" value="1" />
+            <enum title="auto" value="2" />
+        </attr>
+
+        <attr title="sliderScrollTimeInSec" format="integer" />
+
+        <attr title="sliderCircularHandlerEnabled" format="boolean" />
+        <attr title="sliderAutoCycleEnabled" format="boolean" />
+        <attr title="sliderStartAutoCycle" format="boolean" />
+
+        <attr title="sliderAutoCycleDirection">
+            <enum title="right" value="0" />
+            <enum title="left" value="1" />
+            <enum title="back_and_forth" value="2" />
+        </attr>
+
+    </declare-styleable>
+
+</resources>

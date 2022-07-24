@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myprofile"
+            android:icon="@drawable/ic_menu_phone"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_myrequests"
+            android:icon="@drawable/ic_menu_myrequests"
+            android:title="My Requests" />
+        <item
+            android:id="@+id/nav_myearnings"
+            android:icon="@drawable/ic_baseline_money_24"
+            android:title="My Earnings" />
+        <item
+            android:id="@+id/nav_myorders"
+            android:icon="@drawable/ic_menu_myorders"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_refresh"
+            android:icon="@drawable/ic_reload_black"
+            android:title="Refresh" />
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+        </menu>
+    </item>
+    <item android:title="Exit">
+        <menu>
+            <item
+                android:id="@+id/nav_Logout"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+
+</menu>

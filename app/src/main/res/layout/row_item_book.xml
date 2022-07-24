@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="5dp"
+    android:paddingLeft="5dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:id="@+id/image_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/book_image_sec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/grid_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="85dp"
+                    android:src="@drawable/single_book" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/grid_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/red"
+                android:padding="2dp"
+                android:layout_alignLeft="@+id/book_image_sec"
+                android:text="For Sell"
+                android:textColor="@color/white"
+                android:textSize="11dp"/>
+            <TextView
+                android:id="@+id/grid_label2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/green"
+                android:padding="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_alignLeft="@+id/book_image_sec"
+                android:layout_below="@+id/grid_label"
+                android:text="New"
+                android:textColor="@color/white"
+                android:textSize="11dp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/grid_bookName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/grid_image"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:gravity="center"
+            android:text="আন নূরুর রবি‘য়াহ সাইয়্যিদাতুনা হযরত যাহরা আলাইহাস সালাম"
+            android:textColor="@color/darkerGrey"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/grid_bookPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/grid_bookName"
+            android:gravity="center"
+            android:text="৳ 100.0"
+            android:textColor="@color/black"
+            android:textSize="11dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/btnBookAddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/image_section"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:padding="5dp"-->
+<!--            android:src="@drawable/ic_add_shopping_cart_orange_24dp"/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_1px_orange"
+            android:gravity="center"
+            android:text="SEND REQUEST"
+            android:padding="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="9dp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/grid_cartAddedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_section"
+        android:gravity="center"
+        android:text="Request Sent"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/afterCart_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_section"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <ImageButton
+            android:id="@+id/btn_cart_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_remove_circle_outline_black_24dp"
+            android:background="@color/transparent"/>
+        <TextView
+            android:id="@+id/txtCartQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"/>
+        <ImageButton
+            android:id="@+id/btn_cart_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_circle_outline_black_24dp"
+            android:background="@color/transparent"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/grid_pbCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_section"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

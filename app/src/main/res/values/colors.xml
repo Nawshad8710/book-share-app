@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff870f</color>
+    <color name="colorPrimaryDark">#bf5000</color>
+    <color name="colorAccent">#009688</color>
+    <color name="green">#4CAF50</color>
+    <color name="lightGreen">#CDDC39</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="holo_red_dark">@android:color/holo_red_dark</color>
+
+    <color name="lightBlue">#FFF0F7FA</color>
+    <color name="navyBlue">#000080</color>
+    <color name="mediumBlue">#0000cd</color>
+    <color name="steelBlue">#4682b4</color>
+    <color name="royalBlue">#4169e1</color>
+    <color name="blue">#0000ff</color>
+    <color name="dodger_blue">#1E90FF</color>
+    <color name="midnight_blue">#191970</color>
+    <color name="cornflower_blue">#6495ED</color>
+    <color name="cadet_blue">#5F9EA0</color>
+    <color name="slate_blue">#6A5ACD</color>
+    <color name="medium_slate_blue">#7B68EE</color>
+    <color name="blue_violet">#8A2BE2</color>
+    <color name="light_sky_blue">#87CEFA</color>
+    <color name="sky_blue">#87CEEB</color>
+    <color name="deep_sky_blue">#1E90FF</color>#2196F3
+
+    <color name="lightGrey">#EBEBEB</color>
+    <color name="silverGrey">#C0C0C0</color>
+    <color name="grey">#808080</color>
+    <color name="dimGrey">#696969</color>
+    <color name="darkerGrey">#4C4E4C</color>
+    <color name="darkGrey">@android:color/darker_gray</color>
+
+    <color name="transparent">@android:color/transparent</color>
+</resources>

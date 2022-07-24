@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/my_all_books"
+        android:title="My All Books" />
+    <item
+        android:id="@+id/my_books_for_rent"
+        android:title="My Books for Rent" />
+    <item
+        android:id="@+id/my_books_for_sell"
+        android:title="My Books for Sell" />
+    <item
+        android:id="@+id/inactive_books"
+        android:title="Inactive Books" />
+
+</menu>
